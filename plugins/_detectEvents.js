@@ -1,8 +1,6 @@
-// Creditos del codigo a @Gatito-kw //
+// Creditos del codigo a @LARIOS-PSD //
 
-/* GitHub: https://github.com/Gatito-kw */
-
-/* Bot: https://github.com/Gatito-kw/nekobot-md */
+/* https://github.com/Mlarios-2021097/Larios.Bot */
 
 import {WAMessageStubType} from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
