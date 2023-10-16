@@ -57,12 +57,12 @@ const handler = async (m, { conn, text }) => {
     };
     await fs.promises.writeFile(filePath, spty.audio);
     await NodeID3.write(tags, filePath);
-    let spotifyi = `*• 💽 Spotify Download •*\n\n`
-         spotifyi += `	◦  *Título:* ${spty.data.name}\n`
-         spotifyi += `	◦  *Artista:* ${spty.data.artists}\n`
-         spotifyi += `	◦  *Album:* ${spty.data.album_name}\n`                 
-         spotifyi += `	◦  *Publicado:* ${spty.data.release_date}\n\n`   
-         spotifyi += `El audio se esta enviando, espere un momento..`
+    let spotifyi = `* 💽 𝐒𝐏𝐎𝐓𝐈𝐅𝐘 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 *\n\n`
+         spotifyi += `	◦  *𝐓𝐈𝐓𝐔𝐋𝐎:* ${spty.data.name}\n`
+         spotifyi += `	◦  *𝐀𝐑𝐓𝐈𝐒𝐓𝐀:* ${spty.data.artists}\n`
+         spotifyi += `	◦  *𝐀𝐋𝐁𝐔𝐌:* ${spty.data.album_name}\n`                 
+         spotifyi += `	◦  *𝐏𝐔𝐁𝐋𝐈𝐂𝐀𝐃𝐎:* ${spty.data.release_date}\n\n`   
+         spotifyi += `𝐄𝐋 𝐀𝐔𝐃𝐈𝐎 𝐒𝐄 𝐄𝐒𝐓𝐀 𝐄𝐍𝐕𝐈𝐀𝐍𝐃𝐎, 𝐄𝐒𝐏𝐄𝐑𝐄 𝐔𝐍 𝐌𝐎𝐌𝐄𝐍𝐓𝐎!`
     await conn.sendMessage(m.chat, {text: spotifyi.trim(), contextInfo: {forwardingScore: 9999999, isForwarded: true, "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": img, "thumbnailUrl": img, "mediaUrl": linkDL, "sourceUrl": linkDL}}}, {quoted: m});
     await conn.sendMessage(m.chat, {audio: fs.readFileSync(`./tmp/${randomName}`), fileName: `${spty.data.name}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
   } catch (error) {
