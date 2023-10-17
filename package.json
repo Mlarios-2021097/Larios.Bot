@@ -1,7 +1,7 @@
 {
-  "name": "Larios.Psd Bot",
+  "name": "TheMystic-Bot-MD",
   "version": "1.0.0",
-  "description": "Larios.Psd",
+  "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Mlarios-2021097/Larios.Bot/",
+  "homepage": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
   "author": {
-    "name": "Larios.Psd"
+    "name": "BrunoSobrino"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mlarios-2021097/Larios.Bot/"
+    "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Mlarios-2021097/Larios.Bot/"
+    "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
