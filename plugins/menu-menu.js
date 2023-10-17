@@ -27,7 +27,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
    𝗛ola, ${taguser}
 
 ⭐ 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐃𝐄𝐋 𝐁𝐎𝐓: @𝐋𝐀𝐑𝐈𝐎𝐒.𝐏𝐒𝐃
-⭐ 𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/5219992095479
+⭐ 𝐍𝐔𝐌𝐄𝐑𝐎: wa.me/50253501417
 ⭐ 𝐅𝐄𝐂𝐇𝐀: ${date}
 
 𝐒𝐈 𝐃𝐄𝐒𝐄𝐀𝐒 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 𝐄𝐋 𝐁𝐎𝐓 𝐏𝐀𝐑𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎
@@ -35,7 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 (𝐇𝐁𝐎, 𝐍𝐄𝐓𝐅𝐋𝐈𝐗, 𝐃𝐈𝐒𝐍𝐄𝐘, 𝐒𝐓𝐀𝐑 𝐘 𝐌𝐀𝐒)
 𝐂𝐎𝐋𝐎𝐂𝐀 𝐄𝐋 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎:
 
-💵 _${usedPrefix}menu2_
+⭐ _${usedPrefix}menu2_
 
     ⭐ 𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 ⭐
 
